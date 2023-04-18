@@ -30,9 +30,16 @@
          text-align: center 
         }
         
+        h3 { z-index: 9999; 
+         color: darkblue; 
+         opacity: 50%; 
+         text-align: center; 
+         font-size: 24px
+        }
+        
         /* 2.5.2 Insert additional CSS code here between the <style> tags */
         
-        /* change background and tip color to black */
+        /* change background and tip opacity*/
         .elevation-popup .mapboxgl-popup-content {
           opacity: 60%
         }
@@ -41,10 +48,12 @@
           opacity: 60%
         }
     
+        /*add arrow icon*/
         arrow {
             margin-left: 49%
         }
 
+        /*add title class*/
         .title { z-index: 9999; 
              color: darkblue; 
              opacity: 100%; 
@@ -62,7 +71,7 @@
       
         <!--map 1 -->
             <h1> Map 1: Mt. Eccles </h1>
-
+            <h3> This was the second peak I ever summited, although it is comparatively quite low elevation because you start at sea level. </h3>
             <div id='map1'></div>
             <br>
             <arrow class="material-icons">check_box</arrow>
@@ -71,7 +80,7 @@
 
         <!--map 2 -->
             <h1> Map 2: South Sister </h1>
-
+            <h3> This past summer I reached the top of the third "sister," a mountain that is often considered the easiest to climb in Oregon.</h3>
             <div id='map2'></div>
             <br>
             <arrow class="material-icons">check_box</arrow>
@@ -81,7 +90,7 @@
 
         <!--map 3 -->
             <h1> Map 3: Mt. Hood</h1>
-
+            <h3> Next I want to climb the iconic and second-tallest mountain in Oregon, Mt. Hood. </h3>
             <div id='map3'></div>
             <br>
             <arrow class="material-icons">check_box_outline_blank</arrow>
