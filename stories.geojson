@@ -1,0 +1,49 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "LastName": "Lapointe",
+        "Media": "Photos",
+        "Slug": "harden",
+        "Text": "Oregon’s forests are designed to burn; our homes don’t have to be. Still standing after the 2020 wildfires, some Oregon homes point to a future of coexistence with fire.",
+        "Topic": "Land",
+        "Title": "Hardened",
+        "FirstName": "Wesley",
+        "Image": "https://blogs.uoregon.edu/uosciencestory/files/2023/04/20210604_Flammable_Images_WL_0014.jpg",
+        "Year": "2021"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.585765,
+          44.143865
+        ],
+        "type": "Point"
+      },
+      "id": "a31488de989b221bf8c436a3da588f26"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LastName": "Aronson",
+        "Media": "Illustration",
+        "Slug": "dam",
+        "Text": "Rivers like the McKenzie have always been integral to the Pacific Northwest, and dams that have been built across many of its rivers are inseparable from its modern history.   ",
+        "Topic": "Water",
+        "Title": "Beautiful and Dammed",
+        "FirstName": "Eliza",
+        "Image": "https://blogs.uoregon.edu/uosciencestory/files/2023/03/DJI_0077-1.jpg",
+        "Year": "2022"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.611778,
+          44.137225
+        ],
+        "type": "Point"
+      },
+      "id": "c8965ab3d9ff3f0cc8126c7bdc85773f"
+    }
+  ],
+  "type": "FeatureCollection"
+}
